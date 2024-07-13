@@ -24,33 +24,43 @@
     />
     <script type="module" crossorigin src="/assets/index-B5Qt9EMX.js"></script>
   </head>
+
   <body>
+    <!-- Header section starts here -->
     <header class="header">
+      <!-- navigation -->
       <div class="nav-wrapper">
         <img src="/images/logo.svg" alt="Sunny-side" class="logo" />
+        <!-- Label for navigation toggle button and hamburger -->
         <label for="nav-toggle" class="nav-toggle-label">
           <span></span>
         </label>
         <input type="checkbox" name="nav-toggle" id="nav-toggle" />
-        <nav class="primary-navigation" id="primary-navigation">
-          <ul class="nav-list barlow-semibold">
-            <li class="list-item"><a href="#" class="nav-link">About</a></li>
-            <li class="list-item"><a href="#" class="nav-link">Services</a></li>
-            <li class="list-item"><a href="#" class="nav-link">Project</a></li>
+        <!-- Actual Navigation -->
+        <nav id="primary-navigation">
+          <ul class="primary-navigation__list barlow-semibold">
+            <li class="list__item"><a href="#" class="item__link">About</a></li>
+            <li class="list__item"><a href="#" class="item__link">Services</a></li>
+            <li class="list__item"><a href="#" class="item__link">Project</a></li>
+            <!-- Call to action button -->
             <li class="list-item">
-              <a href="#" class="nav-link cta fraunces-black">Contact</a>
+              <a href="#" class="item__link cta fraunces-black">Contact</a>
             </li>
           </ul>
         </nav>
       </div>
+      <!-- Hero section details -->
       <section class="details">
-        <h1 class="fraunces-bold">We Are Creative</h1>
+        <h1 class="fraunces-bold main-heading">We Are Creative</h1>
         <img src="/images/icon-arrow-down.svg" alt="an arrow" class="arrow" />
       </section>
     </header>
+
+    <!-- Header section ends here -->
     <main class="main">
-      <!-- Egg -->
+      <!-- Egg Section -->
       <section class="egg">
+        <!-- Egg section image -->
         <picture class="egg__image">
           <source
             media="(min-width: 750px)"
@@ -58,6 +68,7 @@
           />
           <img src="/images/mobile/image-transform.jpg" alt="egg" />
         </picture>
+        <!-- Details for egg section -->
         <div class="details">
           <div class="text-and-buttons">
             <h2 class="sub-heading fraunces-bold">Transform your brand</h2>
@@ -70,8 +81,9 @@
           </div>
         </div>
       </section>
-      <!-- glass -->
+      <!-- Glass Section -->
       <section class="glass">
+        <!-- Glass Section Image -->
         <picture class="glass__image">
           <source
             media="(min-width: 750px)"
@@ -79,6 +91,7 @@
           />
           <img src="/images/mobile/image-stand-out.jpg" alt="glass" />
         </picture>
+        <!-- Details for glass section -->
         <div class="glass-details">
           <div class="text-and-buttons">
             <h2 class="sub-heading fraunces-bold">
@@ -96,6 +109,7 @@
       <!-- Images -->
       <section class="images">
         <div class="gfx">
+          <!-- Cherry Image -->
           <picture class="images__image">
             <source
               media="(min-width: 750px)"
@@ -113,6 +127,7 @@
           </div>
         </div>
         <div class="gfx">
+          <!-- Orange Image -->
           <picture class="images__image">
             <source
               media="(min-width: 750px)"
@@ -129,9 +144,9 @@
           </div>
         </div>
       </section>
-
+      <!-- Testimonial Section -->
       <section class="testimonials">
-        <h3 class="fraunces-bold">Client Testimonials</h3>
+        <h3 class="fraunces-bold testimonial-heading">Client Testimonials</h3>
         <div class="clients">
           <div class="users">
             <img
@@ -183,6 +198,7 @@
 
       <!-- Images section -->
       <section class="gallery">
+        <h2 class="visually-hidden">Gallery</h2>
         <section class="section-1">
           <h2 class="visually-hidden">Gallery</h2>
           <picture>
@@ -203,6 +219,7 @@
           /></picture>
         </section>
         <section class="section-2">
+          <h2 class="visually-hidden">Gallery</h2>
           <picture>
             <source
               class="display-images"
